@@ -1,0 +1,32 @@
+.counter {
+    padding: 12px 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.counter__button {
+    background-color: #e1e0e0;
+    border-radius: 9px;
+    font-family: "PlayfairDisplay-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.counter__button_decrement {
+    padding: 0 20px 6px;
+}
+
+.counter__button_increment {
+    padding: 3px 20px;
+    font-weight: 600;
+
+}
+
+.counter__value {
+    font-family: "PlayfairDisplay-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    padding-bottom: 10px;
+}

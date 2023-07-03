@@ -1,0 +1,13 @@
+.cash-receipt-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cash-receipt-item div:nth-child(1) {
+    margin-right: 10px;
+}
+
+.cash-receipt-item div:nth-child(2) {
+    margin-right: auto;
+}

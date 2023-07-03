@@ -1,0 +1,136 @@
+.cart-page {
+    padding: 0 120px 25px;
+}
+
+.cart-page__title {
+    font-family: "GhotichG", sans-serif;
+    font-size: 71px;
+    font-weight: normal;
+    margin: 40px auto 32px;
+}
+
+.sum-price {
+    margin-right: 20px;
+    text-align: right;
+    font-family: "PlayfairDisplay-Regular", sans-serif;
+    font-size: 29px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.form__lable {
+    text-align: left;
+    margin-bottom: 5px;
+    font-family: "PlayfairDisplay-Regular", sans-serif;
+}
+
+.form__input {
+    margin-bottom: 20px;
+    height: 30px;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.form__input_number {
+    -moz-appearance: textfield;
+}
+
+.form__input_number::-webkit-inner-spin-button {
+    display: none;
+}
+
+.red-start {
+    font-size: 20px;
+    color: red;
+}
+
+.form__textarea {
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.form__select {
+    margin-bottom: 50px;
+    font-family: "PlayfairDisplay-Regular", sans-serif;
+    height: 40px;
+}
+
+.form__submit-button {
+    align-self: center;
+    width: 60%;
+    height: 80px;
+    font-family: "GhotichG", sans-serif;
+    font-size: 40px;
+    background-color: #CDC4C433;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.form__submit-button:hover {
+    background-color: #CDC4C433
+}
+
+.cash-receipt {
+    margin: 0 auto;
+    padding: 0 50px 50px;
+    max-width: 900px;
+    background-color: #e8dcbe33;
+}
+
+.cash-receipt__title {
+    font-family: "GhotichG", sans-serif;
+    font-size: 60px;
+    padding-top: 20px;
+    margin: 20px 0;
+}
+
+.cash-receipt__final-price {
+    text-align: right;
+}
+
+.cash-receipt__message {
+    font-size: 20px;
+}
+
+.cash-receipt__dishs {
+    font-size: 20px;
+}
+
+.cash-receipt__delivery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.cash-receipt__final-price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cash-receipt__comment {
+    font-family: "GhotichG", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 5px 0;
+}
+
+.cash-receipt__delivery span:nth-child(1) {
+    margin-right: 20px;
+}
+
+.cash-receipt__delivery span:nth-child(2) {
+    margin-right: auto;
+}
+
+.cash-receipt__note {
+    font-family: "PlayfairDisplay-Regular", sans-serif;
+    font-size: 60px;
+}

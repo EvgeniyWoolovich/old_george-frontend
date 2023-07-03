@@ -1,0 +1,12 @@
+.map-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-title {
+    font-family: "PlayfairDisplay-Regular", sans-serif;
+    font-size: 40px;
+    margin: 0 auto 30px;
+}
